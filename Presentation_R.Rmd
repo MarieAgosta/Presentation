@@ -5,26 +5,33 @@ date: "November 18, 2016"
 output: ioslides_presentation
 ---
 
----
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Introduction 
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+Traditional Indicators of Voter Turnout 
 
 ## Research Question 
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations? For example, education is a "traditional" indicator of the liklihood that you'll vote but how storng is it for the millenials compared to the baby boomers? What about if we break it down by race or gender? 
+
+## It Matter
+
+- Millennials now represent the largest share of eligible voters yet they do not vote 
+- Millenials are demographically different from previous generations 
+- Millenials came of age in a very secular and technology driven world 
 
 ## Methodology 
 
+We opted for a logit 
+
+## Choice of Data 
+
+- American National Election Survey 
+- Face to face and internet survey 
+- Other info 
 
 ## Some findings 
 
