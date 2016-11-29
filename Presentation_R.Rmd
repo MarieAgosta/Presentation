@@ -5,37 +5,37 @@ date: "November 18, 2016"
 output: ioslides_presentation
 ---
 
-This is where we clean and prepare the data
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+## Introduction 
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
 
-## Slide with Bullets
+## Research Question 
 
 - Bullet 1
 - Bullet 2
 - Bullet 3
 
-## Slide with R Output
+## Methodology 
+
+
+## Some findings 
 
 ```{r cars, echo = TRUE}
 summary(cars)
 ```
 
-## Slide with Plot
-
 ```{r pressure}
 plot(pressure)
 ```
 
-
+## Discussion 
 
 
