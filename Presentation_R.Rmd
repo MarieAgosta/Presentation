@@ -29,11 +29,14 @@ We opted for a logit
 
 ## Choice of Data 
 
-- American National Election Survey 
+- American National Election Studies 
 - Face to face and internet survey 
 - Other info 
 
 ## Some findings 
+
+black, women and men
+white, women and men 
 
 ```{r cars, echo = TRUE}
 summary(cars)
@@ -44,5 +47,9 @@ plot(pressure)
 ```
 
 ## Discussion 
+
+- November 8th, 2016 
+- external valididty with only 2012
+- Self surveys 
 
 
