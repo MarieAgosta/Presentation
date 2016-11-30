@@ -15,9 +15,11 @@ Traditional Indicators of Voter Turnout
 
 ## Research Question 
 
-In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations? For example, education is a "traditional" indicator of the liklihood that you'll vote but how storng is it for the millenials compared to the baby boomers? What about if we break it down by race or gender? 
+In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations? 
 
-## It Matter
+For example, education is a "traditional" indicator of the liklihood that you'll vote but how storng is it for the millenials compared to the baby boomers? What about if we break it down by race or gender? 
+
+## It Matters
 
 - Millennials now represent the largest share of eligible voters yet they do not vote 
 - Millenials are demographically different from previous generations 
@@ -30,8 +32,8 @@ We opted for a logit
 ## Choice of Data 
 
 - American National Election Studies 
-- Face to face and internet survey 
-- Other info 
+- Face to face and internet survey, N = 4,505
+- Response Rates: Face-to-face: 38 percent, Online: 2 percent. 
 
 ## Some findings 
 
