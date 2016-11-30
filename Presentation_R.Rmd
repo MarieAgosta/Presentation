@@ -11,9 +11,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Research Question 
 
-*In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations?* 
+ **In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations?** 
 
 Traditional indicators of voter turnout: 
+
 - income 
 - martital status 
 - age
@@ -24,10 +25,11 @@ For example, education is a traditional indicator used to assess the liklihood t
 
 ## It Matters
 
-Approximately 69.2 million Millenials are of voting age and are eligible to vote, making them the largest share of eligible voters. Yet...
+Approximately **69.2 million Millenials** are of voting age and are eligible to vote, making them the largest share of eligible voters. Yet...
 
-- 50% voted in the 2008 presidential election 
-- 46% voted in the 2012 election 
+- In the 2008 presidential election, 50% voted 
+- In the 2012 presidential election, 46% voted 
+- In the 2016 presidential election, had only millennials voted, Clinton would've won the election in a landslide - 473 electoral votes to Trump's 32.
 
 And... 
 
@@ -36,9 +38,12 @@ And...
 
 ## Methodology 
 
-We opted for a logit model. We wanted to assess the probabilty of a baby boomer or millenial, for example, voting in 2012, dependent upon income, education, race, and gender. 
+We opted for a logit model because we want to assess if traditional indicators hold the same predictive power across generations. This model provides the log-odds which then need to be transformed. 
+
+Our dependent variable is a binary dependent variable, 0 - did not vote in 2012, 1 - voted in 2012. 
 
 Our independent variables are: 
+
 - education
 - gender
 - income
@@ -50,8 +55,8 @@ Our independent variables are:
 - American National Election Studies 
 - Face to face and internet survey, N = 4,505
 - Response Rates: 
-    - Face-to-face: 38 percent
-    - Online: 2 percent
+    + Face-to-face: 38 percent
+    + Online: 2 percent
 - Over 1,900 variables
 - Conducted in English and Spanish 
 - Weighted survey 
@@ -61,18 +66,19 @@ Our independent variables are:
 black, women and men
 white, women and men 
 
-```{r cars, echo = TRUE}
+```{r cars, echo = FALSE }
 summary(cars)
 ```
 
-```{r pressure}
+```{r echo = FALSE }
 plot(pressure)
 ```
 
 ## Discussion 
 
-- November 8th, 2016 
-- external valididty with only 2012
-- Self surveys 
+>- November 8th, 2016 
+>- Issues with external valididty
+>- Relavtively low survey response 
+>- Self surveys 
 
 

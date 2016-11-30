@@ -94,19 +94,28 @@
 
 <slide class=''><hgroup><h2>Research Question</h2></hgroup><article  id="research-question">
 
-<p><em>In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations?</em></p>
+<p><strong>In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations?</strong></p>
 
-<p>Traditional indicators of voter turnout: - income - martital status - age - occupation - education</p>
+<p>Traditional indicators of voter turnout:</p>
+
+<ul>
+<li>income</li>
+<li>martital status</li>
+<li>age</li>
+<li>occupation</li>
+<li>education</li>
+</ul>
 
 <p>For example, education is a traditional indicator used to assess the liklihood that you&#39;ll vote but how storng is it for the millenials compared to baby boomers? Are there other variables that would hold more predictive power for Millenials, such as race or gender?</p>
 
 </article></slide><slide class=''><hgroup><h2>It Matters</h2></hgroup><article  id="it-matters">
 
-<p>Approximately 69.2 million Millenials are of voting age and are eligible to vote, making them the largest share of eligible voters. Yet&#8230;</p>
+<p>Approximately <strong>69.2 million Millenials</strong> are of voting age and are eligible to vote, making them the largest share of eligible voters. Yet&#8230;</p>
 
 <ul>
-<li>50% voted in the 2008 presidential election</li>
-<li>46% voted in the 2012 election</li>
+<li>In the 2008 presidential election, 50% voted</li>
+<li>In the 2012 presidential election, 46% voted</li>
+<li>In the 2016 presidential election, had only millennials voted, Clinton would&#39;ve won the election in a landslide - 473 electoral votes to Trump&#39;s 32.</li>
 </ul>
 
 <p>And&#8230;</p>
@@ -118,21 +127,39 @@
 
 </article></slide><slide class=''><hgroup><h2>Methodology</h2></hgroup><article  id="methodology">
 
-<p>We opted for a logit model.</p>
+<p>We opted for a logit model because we want to assess if traditional indicators hold the same predictive power across generations. This model provides the log-odds which then need to be transformed.</p>
+
+<p>Our dependent variable is a binary dependent variable, 0 - did not vote in 2012, 1 - voted in 2012.</p>
+
+<p>Our independent variables are:</p>
+
+<ul>
+<li>education</li>
+<li>gender</li>
+<li>income</li>
+<li>race</li>
+<li>Voted in 2008</li>
+</ul>
 
 </article></slide><slide class=''><hgroup><h2>Choice of Data</h2></hgroup><article  id="choice-of-data">
 
 <ul>
 <li>American National Election Studies</li>
 <li>Face to face and internet survey, N = 4,505</li>
-<li>Response Rates: Face-to-face: 38 percent, Online: 2 percent.</li>
+<li>Response Rates:
+
+<ul>
+<li>Face-to-face: 38 percent</li>
+<li>Online: 2 percent</li>
+</ul></li>
+<li>Over 1,900 variables</li>
+<li>Conducted in English and Spanish</li>
+<li>Weighted survey</li>
 </ul>
 
 </article></slide><slide class=''><hgroup><h2>Some findings</h2></hgroup><article  id="some-findings">
 
 <p>black, women and men white, women and men</p>
-
-<pre class = 'prettyprint lang-r'>summary(cars)</pre>
 
 <pre >##      speed           dist       
 ##  Min.   : 4.0   Min.   :  2.00  
@@ -146,9 +173,10 @@
 
 </article></slide><slide class=''><hgroup><h2>Discussion</h2></hgroup><article  id="discussion">
 
-<ul>
+<ul class = 'build'>
 <li>November 8th, 2016</li>
-<li>external valididty with only 2012</li>
+<li>Issues with external valididty</li>
+<li>Relavtively low survey response</li>
 <li>Self surveys</li>
 </ul></article></slide>
 
