@@ -1,7 +1,7 @@
 ---
 title: "Final Presentation"
 author: "Chris Kardish and Marie Agosta"
-date: "November 18, 2016"
+date: "December 2, 2016"
 output: ioslides_presentation
 ---
 
@@ -9,31 +9,52 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Introduction 
-
-Traditional Indicators of Voter Turnout 
-
 ## Research Question 
 
-In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations? 
+*In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations?* 
 
-For example, education is a "traditional" indicator of the liklihood that you'll vote but how storng is it for the millenials compared to the baby boomers? What about if we break it down by race or gender? 
+Traditional indicators of voter turnout: 
+- income 
+- martital status 
+- age
+- occupation
+- education 
+
+For example, education is a traditional indicator used to assess the liklihood that you'll vote but how storng is it for the millenials compared to baby boomers? Are there other variables that would hold more predictive power for Millenials, such as race or gender? 
 
 ## It Matters
 
-- Millennials now represent the largest share of eligible voters yet they do not vote 
-- Millenials are demographically different from previous generations 
+Approximately 69.2 million Millenials are of voting age and are eligible to vote, making them the largest share of eligible voters. Yet...
+
+- 50% voted in the 2008 presidential election 
+- 46% voted in the 2012 election 
+
+And... 
+
+- Millenials are demographically much more diverse than previous generations  
 - Millenials came of age in a very secular and technology driven world 
 
 ## Methodology 
 
-We opted for a logit 
+We opted for a logit model. We wanted to assess the probabilty of a baby boomer or millenial, for example, voting in 2012, dependent upon income, education, race, and gender. 
+
+Our independent variables are: 
+- education
+- gender
+- income
+- race
+- Voted in 2008 
 
 ## Choice of Data 
 
 - American National Election Studies 
 - Face to face and internet survey, N = 4,505
-- Response Rates: Face-to-face: 38 percent, Online: 2 percent. 
+- Response Rates: 
+    - Face-to-face: 38 percent
+    - Online: 2 percent
+- Over 1,900 variables
+- Conducted in English and Spanish 
+- Weighted survey 
 
 ## Some findings 
 
