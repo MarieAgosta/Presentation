@@ -68,13 +68,7 @@ white, women and men
 
 ```{r cars, echo = FALSE, message = FALSE,  }
 
-source("final_cleaning.R")
 
-library(stargazer)
-
-stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp,
-          dep.var.labels = "Probability of voting in 2012", 
-          column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
 
 ```
 
@@ -83,11 +77,7 @@ stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp,
 ```{r echo = FALSE }
 
 #potentially a way to divide it into two columns 
-div class="columns-2">
-  
 
-  
-/div>
 
 ```
 
