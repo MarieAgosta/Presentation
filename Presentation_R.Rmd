@@ -63,7 +63,7 @@ Our independent variables are:
 
 ## Some Interim Findings {.flexbox .vcenter}
 
-```{r cars, echo = FALSE, message = FALSE,  }
+```{r cars, echo = FALSE, message = FALSE, }
 
 source("final_cleaning.R")
 
