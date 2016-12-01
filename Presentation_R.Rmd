@@ -66,25 +66,15 @@ Our independent variables are:
 black, women and men
 white, women and men 
 
-```{r cars, echo = FALSE, message = FALSE }
+```{r cars, echo = FALSE, message = FALSE,  }
 
-source("final_cleaning.Rmd")
+source("final_cleaning.R")
 
 library(stargazer)
-
-#to look at the stargazer, try the one below, which uses "text." The one below only appears
-#when you knit to PDF.
-
-
 
 stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp,
           dep.var.labels = "Probability of voting in 2012", 
           column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
-
-
-#potentially a way to divide it into two columns 
-div class="columns-2">
-/div>
 
 ```
 
@@ -92,7 +82,12 @@ div class="columns-2">
 
 ```{r echo = FALSE }
 
-plot(pressure)
+#potentially a way to divide it into two columns 
+div class="columns-2">
+  
+
+  
+/div>
 
 ```
 
