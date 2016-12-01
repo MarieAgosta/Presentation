@@ -68,19 +68,20 @@ white, women and men
 
 ```{r cars, echo = FALSE, message = FALSE }
 
-Source("")
+source("final_cleaning.R")
 
 library(stargazer)
 
 #to look at the stargazer, try the one below, which uses "text." The one below only appears
 #when you knit to PDF.
-stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp, type = 'text',
-          dep.var.labels = "Probability of voting in 2012", 
-          column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
+
+div class="columns-2">
 
 stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp,
           dep.var.labels = "Probability of voting in 2012", 
           column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
+
+/div>
 
 ```
 
