@@ -67,12 +67,15 @@ Our independent variables are:
 
 source("final_cleaning.R")
 
+stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp,
+          dep.var.labels = "Probability of voting in 2012", 
+          column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
+
 ```
 
 ## Some Interim Findings
 
 ```{r echo = FALSE }
-
 
 
 ```
