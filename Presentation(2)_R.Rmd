@@ -1,0 +1,100 @@
+---
+title: "Final Presentation"
+author: "Chris Kardish and Marie Agosta"
+date: "December 2, 2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Research Question 
+
+ **In the US, do traditional indicators of voter turnout hold the same amount of predictive power across generations?** 
+
+Traditional indicators of voter turnout: 
+
+- income 
+- martital status 
+- age
+- occupation
+- education 
+
+For example, education is a traditional indicator used to assess the liklihood that you'll vote but how storng is it for the millenials compared to baby boomers? Are there other variables that would hold more predictive power for Millenials, such as race or gender? 
+
+## It Matters
+
+Approximately **69.2 million Millenials** are of voting age and are eligible to vote, making them the largest share of eligible voters. Yet...
+
+- In the 2008 presidential election, 50% voted 
+- In the 2012 presidential election, 46% voted 
+- In the 2016 presidential election, had only millennials voted, Clinton would've won the election in a landslide - 473 electoral votes to Trump's 32.
+
+And... 
+
+- Millenials are demographically much more diverse than previous generations  
+- Millenials came of age in a very secular and technology driven world 
+
+## Methodology 
+
+We opted for a logit model because we want to assess if traditional indicators hold the same predictive power across generations. This model provides the log-odds which then need to be transformed. 
+
+Our dependent variable is a binary dependent variable, 0 - did not vote in 2012, 1 - voted in 2012. 
+
+Our independent variables are: 
+
+- education
+- gender
+- income
+- race
+- Voted in 2008 
+
+## Choice of Data 
+
+- American National Election Studies 
+- Face to face and internet survey, N = 4,505
+- Response Rates: 
+    + Face-to-face: 38 percent
+    + Online: 2 percent
+- Over 1,900 variables
+- Conducted in English and Spanish 
+- Weighted survey 
+
+## Model results {.flexbox .vcenter}
+
+<<<<<<< HEAD
+ 
+
+```{r echo = FALSE, results='asis', message=FALSE}
+#setwd('C:/Users/Chris/Documents/GitHub/Presentation')
+source("final_cleaning.R")
+library(stargazer)
+=======
+```{r cars, echo = FALSE, message = FALSE,  }
+
+source("final_cleaning.R")
+
+>>>>>>> origin/master
+stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp,
+          type = "html", dep.var.labels = "Probability of voting in 2012", 
+          column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
+
+```
+
+## How the model plays out 
+
+```{r, echo = FALSE, results='asis'}
+
+
+```
+
+## Discussion 
+
+>- November 8th, 2016 
+>- Issues with external valididty
+>- Relavtively low survey response 
+>- Self surveys
+>- Psuedo-R squared issues 
+
+
