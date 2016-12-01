@@ -61,30 +61,34 @@ Our independent variables are:
 - Conducted in English and Spanish 
 - Weighted survey 
 
-## Some findings {.flexbox .vcenter}
+## Some Interim Findings {.flexbox .vcenter}
 
 black, women and men
 white, women and men 
 
 ```{r cars, echo = FALSE, message = FALSE }
 
-source("final_cleaning.R")
+source("final_cleaning.Rmd")
 
 library(stargazer)
 
 #to look at the stargazer, try the one below, which uses "text." The one below only appears
 #when you knit to PDF.
 
-div class="columns-2">
+
 
 stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp,
           dep.var.labels = "Probability of voting in 2012", 
           column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
 
+
+#potentially a way to divide it into two columns 
+div class="columns-2">
 /div>
 
 ```
 
+## Some Interim Findings
 
 ```{r echo = FALSE }
 
@@ -94,10 +98,10 @@ plot(pressure)
 
 ## Discussion 
 
->- November 8th, 2016 
 >- Issues with external valididty
 >- Relavtively low survey response 
 >- Self surveys
 >- Psuedo-R squared issues 
+>- November 8th, 2016 
 
 
