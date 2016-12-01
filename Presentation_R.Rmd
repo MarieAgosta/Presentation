@@ -61,15 +61,18 @@ Our independent variables are:
 - Conducted in English and Spanish 
 - Weighted survey 
 
-## Some findings 
+## Some findings {.flexbox .vcenter}
 
 black, women and men
 white, women and men 
 
-```{r cars, echo = FALSE }
+```{r cars, echo = FALSE, message = FALSE }
+
 
 library(stargazer)
 
+#to look at the stargazer, try the one below, which uses "text." The one below only appears
+#when you knit to PDF.
 stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp, type = 'text',
           dep.var.labels = "Probability of voting in 2012", 
           column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
@@ -77,10 +80,14 @@ stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp, type = 'text',
 stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp,
           dep.var.labels = "Probability of voting in 2012", 
           column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
+
 ```
 
+
 ```{r echo = FALSE }
+
 plot(pressure)
+
 ```
 
 ## Discussion 
