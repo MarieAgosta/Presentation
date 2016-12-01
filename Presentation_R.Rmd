@@ -67,7 +67,16 @@ black, women and men
 white, women and men 
 
 ```{r cars, echo = FALSE }
-summary(cars)
+
+library(stargazer)
+
+stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp, type = 'text',
+          dep.var.labels = "Probability of voting in 2012", 
+          column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
+
+stargazer(M_genY, M_genX, M_boomer, M_silent, apply.coef = exp,
+          dep.var.labels = "Probability of voting in 2012", 
+          column.labels = c("Gen Y", "Gen X", "Boomers", "Silent"))
 ```
 
 ```{r echo = FALSE }
