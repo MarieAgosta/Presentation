@@ -68,6 +68,7 @@ white, women and men
 
 ```{r cars, echo = FALSE, message = FALSE }
 
+Source("")
 
 library(stargazer)
 
@@ -95,6 +96,7 @@ plot(pressure)
 >- November 8th, 2016 
 >- Issues with external valididty
 >- Relavtively low survey response 
->- Self surveys 
+>- Self surveys
+>- Psuedo-R squared issues 
 
 
